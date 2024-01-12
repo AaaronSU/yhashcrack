@@ -1,0 +1,30 @@
+#+TITLE: Implementations of the MD5, SHA1, SHA224, SHA256, and SHA512 cryptographic hashing functions.
+#+AUTHOR: yaspr
+
+* Compilation
+
+  To generate all binaries & *libyhash*:
+
+  #+BEGIN_SRC sh
+  
+   $ make 
+
+  #+END_SRC
+
+* Testing
+
+  To test the implementations:
+
+  #+BEGIN_SRC sh
+
+    $ make test
+    
+  #+END_SRC
+  
+* Important
+
+  #+BEGIN_EXAMPLE
+  
+   /!\ DO NOT USE IN PRODUCTION CODE /!\
+
+  #+END_EXAMPLE
